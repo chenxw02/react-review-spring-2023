@@ -1,0 +1,10 @@
+/* class选择器 */
+.active{
+    background-color: antiquewhite;
+    
+}
+
+/* id选择器 */
+#myapp{
+    background-color: aqua;
+}

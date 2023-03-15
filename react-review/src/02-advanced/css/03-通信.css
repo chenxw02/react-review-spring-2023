@@ -1,0 +1,12 @@
+.filmItems {
+    position: absolute;
+    left: 0;
+}
+
+.filmDetail {
+    position: fixed;
+    right: 0;
+    background-color: beige;
+    width: 200px;
+    height: 200px;
+}
