@@ -1,5 +1,6 @@
 import react from "react"
-import ReactDOM from "react-dom"
-import App from "./02-advanced/23-新生命周期-2-案例"
+import ReactDOM from "react-dom/client"
+import App from "./02-advanced/27-swiper-组件"
 
-ReactDOM.render(<App/>, document.getElementById("root"))
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App/>)
