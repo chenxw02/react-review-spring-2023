@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import './TabBar.css'
+// import导入的css会被插入到head：单页面应用，对所有组件生效
 
 export default function TabBar() {
     return (

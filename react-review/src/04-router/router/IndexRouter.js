@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import { HashRouter as Router, Route, Redirect, Switch } from 'react-router-dom'
-import Films from '../views/Films'
-import Cinemas from '../views/Cinemas'
+import Films from '../views/Films/Films'
+import Cinemas from '../views/Cinemas/Cinemas'
 // 从一个js文件引入多个组件：用大括号
-import Center, {WithCenter} from '../views/Center'
-import NotFound from '../views/NotFound'
-import Detail from '../views/films/Detail'
-import Login from '../views/Login'
+import Center, {WithCenter} from '../views/Center/Center'
+import NotFound from '../views/NotFound/NotFound'
+import Detail from '../views/Films/films/Detail'
+import Login from '../views/Login/Login'
 
 // 嵌套路由： 可以替换一个大组件内的部分组件
 // 二级路由：会替换掉整个组件
