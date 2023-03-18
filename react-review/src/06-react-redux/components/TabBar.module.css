@@ -1,0 +1,23 @@
+.active-tab {
+    color: orange;
+}
+
+.tabbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: antiquewhite;
+    height: 50px;
+    text-align: center;
+}
+
+.tabbar ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.tabbar li {
+    flex: 1;
+    list-style: none;
+}

@@ -1,0 +1,15 @@
+.active {
+    color: red;
+}
+
+/* 改造成全局影响 */
+:global(.my-active) {
+    color: red;
+}
+
+/* 全局标签选择器会被全局应用 */
+
+/* 使用父div对标签选择器进行隔离 */
+.films ul {
+    color: red;
+}
