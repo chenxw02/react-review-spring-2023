@@ -1,6 +1,7 @@
 import React from 'react'
 import IndexRouter from './router/IndexRouter'
 import TabBar from './components/TabBar'
+import './css/App.css'
 
 export default function App() {
     return (
